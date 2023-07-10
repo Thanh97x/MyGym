@@ -67,7 +67,8 @@ export class AppAuthService {
             // Unexpected result!
 
             this._logService.warn('Unexpected authenticateResult!');
-            this._router.navigate(['homepage']);
+            this._router.navigate(['landingpage']);
+            // this._router.navigate(['homepage']);
             // this._router.navigate(['account/login']);
 
         }

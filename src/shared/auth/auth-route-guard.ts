@@ -20,7 +20,8 @@ export class AppRouteGuard implements CanActivate, CanActivateChild {
 
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
         if (!this._sessionService.user) {
-            this._router.navigate(['/homepage']);
+            this._router.navigate(['/landingpage']);
+            // this._router.navigate(['/homepage']);
             // this._router.navigate(['/account/login']);
 
             return false;
@@ -44,7 +45,8 @@ export class AppRouteGuard implements CanActivate, CanActivateChild {
 
     selectBestRoute(): string {
         if (!this._sessionService.user) {
-            return '/homepage';
+            return '/landingpage';
+            // return '/homepage';
             // return '/account/login';
 
 

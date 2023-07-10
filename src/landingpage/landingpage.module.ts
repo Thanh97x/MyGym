@@ -9,7 +9,6 @@ import { PropertyFitnessPackgeComponent } from './property-fitness-packge/proper
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomepageComponent } from './homepage/homepage.component';
-
 import { LandingpageRoutingModule } from './landingpage-routing.module';
 import { PropertyBoxGymComponent } from './property-box-gym/property-box-gym.component';
 import { PropertyBoxSaleComponent } from './property-box-sale/property-box-sale.component';
@@ -21,6 +20,8 @@ import { PropertyListComponent } from './property-list/property-list.component';
 import { PropertyFooterComponent } from './property-footer/property-footer.component';
 import { RouterModule } from '@angular/router';
 import { PageMenuComponent } from './menu/page-menu.component';
+import { LandingpageComponent } from './landingpage.component';
+
 
 @NgModule({
   imports: [
@@ -46,6 +47,7 @@ import { PageMenuComponent } from './menu/page-menu.component';
     PropertyGymAddressComponent,
     PropertyFooterComponent,
     PageMenuComponent,
+    LandingpageComponent,
   ]
 })
 export class LandingpageModule { }
