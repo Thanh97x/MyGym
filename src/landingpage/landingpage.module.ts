@@ -18,9 +18,12 @@ import { FormsModule } from '@angular/forms';
 import { PropertyCardComponent } from './property-card/property-card.component';
 import { PropertyListComponent } from './property-list/property-list.component';
 import { PropertyFooterComponent } from './property-footer/property-footer.component';
-import { RouterModule } from '@angular/router';
+import { Routes, Router, RouterModule } from '@angular/router';
 import { PageMenuComponent } from './menu/page-menu.component';
 import { LandingpageComponent } from './landingpage.component';
+import { FitnessComponent } from './fitness/fitness.component';
+import { SupportComponent } from './support/support.component';
+import { InforHlvComponent } from './infor-hlv/infor-hlv.component';
 
 
 @NgModule({
@@ -48,6 +51,9 @@ import { LandingpageComponent } from './landingpage.component';
     PropertyFooterComponent,
     PageMenuComponent,
     LandingpageComponent,
+    FitnessComponent,
+    SupportComponent,
+    InforHlvComponent,
   ]
 })
 export class LandingpageModule { }
