@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./infor-hlv.component.scss']
 })
 export class InforHlvComponent {
-
+  navigateCoachhvl() {
+    const InforhvlElement = document.getElementById("cb-review-title")
+    InforhvlElement.scrollIntoView({ behavior: "smooth" })
+  }
 }
